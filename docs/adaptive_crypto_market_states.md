@@ -70,5 +70,11 @@ This document provides a practical framework for understanding different crypto 
 - Подключить web-дэшборд (Flask, Streamlit) для мониторинга состояния, логов, отчётов.
 - Реализовать Telegram/Email-уведомления для контроля сигналов и ошибок.
 
+Рекомендуемый стек для реализации:
+- Язык: Python 
+- Инфраструктура: Jupyter/Colab для ресерча, SQLite/PostgreSQL для хранения данных
+- Источники данных: Kraken API (Ticker, OHLC, Trades, Depth)
+- Логика: модульность, возможность быстрой смены и тестирования гипотез
+
 ## Author
 Developed as part of a broader initiative to build regime-aware crypto trading bots using probabilistic logic and ML routing on real-time Kraken data.
