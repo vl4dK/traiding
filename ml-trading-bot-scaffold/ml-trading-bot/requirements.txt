@@ -1,0 +1,13 @@
+pandas
+numpy
+polars
+scikit-learn
+lightgbm
+xgboost
+ta
+mlflow
+prefect
+pydantic
+ccxt
+python-dotenv
+pyyaml
