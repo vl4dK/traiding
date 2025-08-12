@@ -139,3 +139,11 @@ uvicorn api.main:app --reload --port 8000
 streamlit run ui/dashboard.py
 ```
 По умолчанию GUI обращается к `http://localhost:8000`.
+## Installation
+
+```bash
+# Python 3.11
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
